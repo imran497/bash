@@ -1,0 +1,130 @@
+/*Header CSS */
+
+body {
+  padding: 20px;
+  margin: 0;
+}
+h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #607d8b;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #0099FF;
+}
+
+/*Users page CSS */
+
+
+.background-style-userdata{
+    background-color: aliceblue;
+}
+
+.text-align-center-userdata{
+    text-align: center;
+    border: 3px solid #607d8b;
+    color: black;
+}
+
+.menu-color-userdata{
+    text-align: right;
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  table, th, td {
+    border: 2px solid black;
+    height: 30px;
+  }
+
+
+  .userdata-header {
+    padding: 10px;
+    min-height: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: black;
+    font-weight: 900;
+  }
+
+  /*Teams CSS */
+
+.background-style-teamdata{
+    background-color: aliceblue;
+}
+
+.text-align-center-teamdata{
+  text-align: center;
+  border: 3px solid #607d8b;
+  color: black;
+}
+
+.menu-color-teamdata{
+    text-align: right;
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+  }
+
+  table, th, td {
+    border: 2px solid black;
+    height: 30px;
+  }
+
+
+  .teamdata-header {
+    padding: 10px;
+    min-height: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: black;
+    font-weight: 900;
+  }
